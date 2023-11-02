@@ -120,7 +120,7 @@ h2 {
 }
 
 .coffee {
-  padding: 100px 0;
+  padding: 60px 0;
   background-color: #e1e2e6;
 
 }
@@ -222,9 +222,16 @@ h2 {
 
 /*   NUEVO CSS CARDS */
 
-.container-cards{
+.accordion-header button{
+  font-size: 1.8rem;
+}
+
+.container-VM{
   width: 90%;
   margin: auto;
+}
+
+.container-cards{
   display: flex;
   justify-content: space-between;
 }
