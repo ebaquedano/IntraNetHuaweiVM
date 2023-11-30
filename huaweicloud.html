@@ -354,7 +354,7 @@
                     Huawei Cloud 1
                   </p>
                   <div class="price-container">
-                    USD<span id="linuxVM">63</span>/Mensual
+                    USD<span id="valorLinuxVM1">53.50</span>/Mensual
                   </div>
                 </div>
         
@@ -390,8 +390,8 @@
                       <p>
                         <label for="selectLinuxVM1">Trafico:</label>
                         <select id="selectLinuxVM1">
-                          <option value="HuaweiCloudT1">300GB</option>
-                          <option value="HuaweiCloudB1">10Mbit/s</option>
+                          <option value="HuaweiLinuxCloudT1">300GB</option>
+                          <option value="HuaweiLinuxCloudB1">10Mbit/s</option>
                         </select>
                       </p>
                     </li>
@@ -410,7 +410,7 @@
                   </ul>
                 </div>
                 <div class="button-container">
-                    <a id="linuxVM1" href="HuaweiCloudT1.pptx" target="_blank">
+                    <a id="linkLinuxVM1" href="HuaweiLinuxCloudT1.pptx" target="_blank">
                         <button type="button">Descargar</button>
                     </a>
                 </div>
@@ -423,7 +423,7 @@
                     Huawei Cloud 2
                   </p>
                   <div class="price-container">
-                    USD<span id="linuxVM2">102</span>/Mensual
+                    USD<span id="linuxVM2">73.21</span>/Mensual
                   </div>
                 </div>
                 <div>
@@ -490,7 +490,7 @@
                     Huawei Cloud 3
                   </p>
                   <div class="price-container">
-                    USD<span id="linuxVM3">161</span>/Mensual
+                    USD<span id="linuxVM3">112.63</span>/Mensual
                   </div>
                 </div>
                 <div>
@@ -558,7 +558,7 @@
                     Huawei Cloud 4
                   </p>
                   <div class="price-container">
-                    USD<span id="linuxVM4">287</span>/Mensual
+                    USD<span id="linuxVM4">191.47</span>/Mensual
                   </div>
                 </div>
         
@@ -733,6 +733,33 @@
       }
   });
 </script>
+
+<!-- VM 1 Linux -->
+<script>
+  const pdfLinuxSelect = document.getElementById("selectLinuxVM1");
+  const linkLinuxVM1 = document.getElementById("linkLinuxVM1");
+  const valorLinuxVM = document.getElementById("valorLinuxVM1");
+  
+  selectLinuxVM1.addEventListener("change", function () {
+      const selectedOption = selectVM1.value;
+      let pdfFileName = "";
+      let valor = "";
+
+      if (selectedOption === "HuaweiLinuxCloudT1") {
+          pdfFileName = "HuaweiLinuxCloudT1";
+          valor = "53.50"
+      } else if (selectedOption === "HuaweiLinuxCloudB1") {
+          pdfFileName = "HuaweiLinuxCloudB1.pptx";
+          valor = "151.11"
+      }
+
+      if (pdfFileName) {
+        linkVM1.setAttribute("href", pdfFileName);
+        valorVM.innerHTML = valor
+      }
+  });
+</script>
+
 
   <section class="general">
 
