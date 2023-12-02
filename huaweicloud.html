@@ -702,13 +702,11 @@
         const selectElement = document.getElementById(selectId);
         const linkElement = document.getElementById(linkId);
         const valorElement = document.getElementById(valorId);
-        console.log("inicio")
 
         selectElement.addEventListener("change", function () {
           const selectedOption = selectElement.value;
           let pdfFileName = "";
           let valor = "";
-          console.log("adentro")
           if (selectedOption == `${prefijo}T`) { 
             pdfFileName = `${prefijo}T.pptx`;
             valor = valorUno;
@@ -724,6 +722,7 @@
         });
 
       }
+      /* prefijo, selectId, linkId, valorId, valorUno, valorDos */
       actualizarDatos("HuaweiCloud1", "selectVM1", "linkVM1", "valorVM1", "11", "111.11")
       actualizarDatos("HuaweiCloud2", "selectVM2", "linkVM2", "valorVM2", "22", "222.11")
       actualizarDatos("HuaweiCloud3", "selectVM3", "linkVM3", "valorVM3", "33", "333.11")
