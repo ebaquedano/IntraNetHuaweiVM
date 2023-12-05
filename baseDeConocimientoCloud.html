@@ -54,32 +54,89 @@
                         <div class="row">
                             <div class="col">
 
+                                <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">LÍMITES HUAWEI CLOUD</th>       
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Podrán cotizar un máximo de 5 VMs.</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Elastic Cloud Server (Cotizar únicamente las categorías (S3/S6/T6/)).</td>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Almacenamiento Elastic Cloud Server:(High I/O / General Purpose).</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">4</th>
+                                        <td>Volumen Backup Service, solo se podrá cotizar el mismo para el servicio de Elastic Volume Service (Discos)</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
                             
-                                <p>
-                                    LÍMITES HUAWEI CLOUD
+                                  <br>
+                                  <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">LÍMITES GCP</th>       
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Podrán cotizar un máximo de 5 VMs.</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Compute Engine (Cotizar únicamente las categorías (E2/N2/N2D/T2D/T2A)).</td>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Almacenamiento Compute Engine:(Zonal Standard PD / Zonal Balanced PD / Zonal SSD PD).</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
 
-                                    Podrán cotizar un máximo de 5 VMs.
-                                    Elastic Cloud Server (Cotizar únicamente las categorías (S3/S6/T6/)).
-                                    Almacenamiento Elastic Cloud Server:
-                                    (High I/O / General Purpose).
-                                    Volumen Backup Service, solo se podrá cotizar el mismo para el servicio de Elastic Volume Service (Discos).
-                                
-                                </p>
-                                <p>
-                                    LÍMITES GCP
+                                  <br>
 
-                                    Podrán cotizar un máximo de 5 VMs.
-                                    Compute Engine (Cotizar únicamente las categorías (E2/N2/N2D/T2D/T2A)).
-                                    Almacenamiento Compute Engine:
-                                    (Zonal Standard PD / Zonal Balanced PD / Zonal SSD PD /).
-                                </p>
+                                  <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">LÍMITES AZURE</th>       
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Podrán cotizar un máximo de 5 VMs.</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Virtual Machine (Cotizar únicamente las categoría General Purpose - Series (A/B/D/DC)).</td>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Almacenamiento Virtual Machine:(HDD Standard / Standard SSD / SSD Premium).</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <br>
+                               
                                 <p>
-                                    LÍMITES AZURE
-
-                                    Podrán cotizar un máximo de 5 VMs.
-                                    Virtual Machine (Cotizar únicamente las categoría General Purpose - Series (A/B/D/DC)).
-                                    Almacenamiento Virtual Machine:
-                                    (HDD Standard / Standard SSD / SSD Premium)
+                                    IMPORTANTE: 
+                                    No se podrán cotizar Servicios Profesionales, todo servicio entra por un proceso consultivo.
 
                                 </p>
 
@@ -95,7 +152,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Huawei Cloud - Pack 2
+                    Capacitación Huawei
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -104,7 +161,116 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
+                                <p>
+                                    <li><a href="https://drive.google.com/file/d/1yTnsG7siVRPydcnIh8w9ajygk6tTtJFh/view?usp=drive_link"> Capacitación Huawei </a></li>
 
+                                    <br>
+
+                                    Para el uso de la calculadora de Huawei, debemos de tener en claro las consultas que debemos realizarle al cliente.
+
+                                    Al cliente debemos realizarle algunas preguntas claves:
+
+                                    ¿Qué cantidad de procesadores requiere en su VM?
+                                    
+                                    <br>
+                                    <table class="table">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Tipo de ECS (Elastic Cloud Server)</th>
+                                            <th scope="col">Cantidad de procesadores</th>
+                                           
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">1</th>
+                                            <td>General Computing-basic (T6)</td>
+                                            <td>1, 2, 4, 8, 16 vCPUs*</td>
+                                            
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">2</th>
+                                            <td>General Computing (S6)</td>
+                                            <td>1, 2, 4, 8 vCPUs**</td>
+                                            
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">3</th>
+                                            <td>General Computing-plus (C6s)</td>
+                                            <td>2, 4, 8, 12, 16 , 24, 48, 64 vCPUs***</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+
+                                    NOTA*: Intel® Xeon® Scalable Processor | Basic/Turbo frequency: 2.2 GHz/3.0 GHz
+                                    <br>
+                                    NOTA**: 2nd Generation Intel® Xeon® Scalable Processor | Basic/Turbo frequency: 2.6 GHz/3.5 GHz
+                                    <br>
+                                    NOTA***: 2nd Generation Intel® Xeon® Scalable Processor | Basic/Turbo frequency: 2.6 GHz/3.5 GHz
+                                    
+                                    <br>
+                                    <br>
+                                    ¿Qué cantidad de memoria Ram va a utilizar en su VM?
+                                    <br>
+
+                                    <table class="table">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Elastic Cloud Server</th>
+                                            <th scope="col">Cantidad de Memoria</th>
+                                           
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">1</th>
+                                            <td>Memoria Ram</td>
+                                            <td>1, 2, 4, 8, 16, 32, 64, 128, 256 GB*</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+
+                                    NOTA*: La cantidad de memoria que va a figurar visible, va a depender de dos variables:
+                                    <br>
+                                    1. El tipo de ECS: General Computing Basic/Computing/Plus
+                                    <br>
+                                    2. La cantidad de procesadores que se selecciona.
+                                    <br>
+                                    <br>
+                                    ¿Qué cantidad de almacenamiento? (Teniendo en cuenta que la cotización se compone de 2 discos:
+                                    <br>
+                                    a. El primero es exclusivo para el SO.
+                                    <br>
+                                    b. El segundo es para la VM general.
+                                    <br>
+
+                                    <table class="table">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Almacenamiento</th>
+                                            <th scope="col">¿Cómo cotizar? </th>
+                                           
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">1</th>
+                                            <td>Linux</td>
+                                            <td>Se cotiza directamente desde la calculadora</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">2</th>
+                                            <td>Windows*</td>
+                                            <td>Se cotiza por fuera de la calculadora</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    <br>
+                                    NOTA*: Revisar el spreadsheet de las licencias de Windows: Spreadsheet   
+                                </p>
 
                             </div>
                         </div>
@@ -115,73 +281,51 @@
               </div>
             </div>
 
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    Huawei Cloud - Pack 3
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-
-                                <table class="table table-success table-striped-columns">
-                                    <thead>
-                                        <tr>
-                                            <th>Elementos</th>
-                                            <th>Recursos</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <td>Procesador</td>
-                                        <td>4 vCPUs</td>
-                                    </tbody>
-                                    <tbody>
-                                        <td>Memoria</td>
-                                        <td>16 GB</td>
-                                    </tbody>
-                                    <tbody>
-                                        <td>Sistema Operativo</td>
-                                        <td>CentOS 8.2 64bit</td>
-                                    </tbody>
-                                    <tbody>
-                                        <td>Almacenamiento de SO</td>
-                                        <td>40 GB</td>
-                                    </tbody>
-                                    <tbody>
-                                        <td>Almacenamiento</td>
-                                        <td>500 GB</td>
-                                    </tbody>
-                                    <tbody>
-                                        <td>BGP Dinamico</td>
-                                        <td>Si</td>
-                                    </tbody>
-                                    <tbody>
-                                        <td>Tipo de trafico</td>
-                                        <td>Bandwidth 10Mbit/s</td>
-                                    </tbody>
-                                    <tbody>
-                                        <td>Modo de facturacion</td>
-                                        <td>Pago por uso</td>
-                                    </tbody>
-                                    <tbody>
-                                        <td>Cantidad de hora 730</td>
-                                        <td>Si</td>
-                                    </tbody>
-                                </table>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </div>
           </div>
 
     </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+
+                <h3>Links principales</h3>
+                <ul>
+                    <li><a href="https://www.iplan.com.ar/">Iplan</a></li>
+                    <li><a
+                            href="http://marketing.iplan.com.ar/index.php?option=com_content&view=article&id=105&Itemid=27">Intranet</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="link">
+
+                <h3>Proveedores</h3>
+                <ul>
+                    <li><a
+                            href="https://cloud.google.com/?utm_source=google&utm_medium=cpc&utm_campaign=latam-AR-all-es-dr-BKWS-all-all-trial-e-dr-1605194-LUAC0010192&utm_content=text-ad-none-any-DEV_c-CRE_512364917192-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+~+GCP_General-KWID_43700062788251533-kwd-155951229&utm_term=KW_gcp-ST_GCP&gclid=CjwKCAjw9-6oBhBaEiwAHv1QvOr0jIweJD-gJtVrldzhIwTeufjGbGiPv3LI9Mhn8kyX-gglyQyGfRoCsvQQAvD_BwE&gclsrc=aw.ds&hl=es_419">Google
+                            Cloud Platform</a></li>
+                    <li><a href="https://azure.microsoft.com/es-es">Microsoft Azure</a></li>
+                    <li><a href="https://www.huaweicloud.com/intl/en-us/product/ecs.html">Huawei Cloud</a></li>
+
+                </ul>
+            </div>
+
+            <div class="link">
+
+                <h3>Redes sociales</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/iplanliv/">instagram</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
 
 </body>
 </html>
